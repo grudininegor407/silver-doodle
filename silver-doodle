@@ -1,0 +1,11 @@
+        case .changeBlendMode(let mode):
+            newState.blendMode = mode
+            
+        case .changeZPosition(let index):
+            newState.zPosition = index
+        case .changeFontName(let name):
+            newText.fontName = name
+            
+        case .changeKern(let kern):
+            newText.kern = kern
+            
